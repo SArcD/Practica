@@ -3,6 +3,27 @@ import pandas as pd
 import io
 import base64
 
+
+import streamlit as st
+
+# Opciones de pestañas en el panel lateral
+tabs = ["Inicio", "Configuración", "Ayuda"]
+selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
+
+# Mostrar contenido basado en la pestaña seleccionada
+if selected_tab == "Inicio":
+    st.title("Bienvenido a la Pestaña de Inicio")
+    st.write("Este es el contenido de la pestaña de inicio.")
+
+elif selected_tab == "Configuración":
+    st.title("Configuración")
+    st.write("Ajusta la configuración aquí.")
+
+elif selected_tab == "Ayuda":
+    st.title("Ayuda y Soporte")
+    st.write("Obtén ayuda aquí.")
+
+
 import streamlit as st
 
 # Crear las pestañas
@@ -25,32 +46,6 @@ with tabs[2]:
 # En este ejemplo, estamos utilizando la función st.tabs() para crear las pestañas y luego estamos utilizando bloques with para definir el contenido de cada pestaña. Cada bloque with tabs[i]: contiene el contenido específico que deseas mostrar en esa pestaña. Puedes personalizar el contenido de cada pestaña con texto, gráficos, widgets interactivos y más.
 
 # Recuerda que necesitarás tener Streamlit instalado en tu entorno para poder ejecutar este código. Puedes instalarlo utilizando el siguiente comando:
-
-
-
-
-
-
-import streamlit as st
-
-# Opciones de pestañas en el panel lateral
-tabs = ["Inicio", "Configuración", "Ayuda"]
-selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
-
-# Mostrar contenido basado en la pestaña seleccionada
-if selected_tab == "Inicio":
-    st.title("Bienvenido a la Pestaña de Inicio")
-    st.write("Este es el contenido de la pestaña de inicio.")
-
-elif selected_tab == "Configuración":
-    st.title("Configuración")
-    st.write("Ajusta la configuración aquí.")
-
-elif selected_tab == "Ayuda":
-    st.title("Ayuda y Soporte")
-    st.write("Obtén ayuda aquí.")
-
-
 
 
 
