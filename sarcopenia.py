@@ -42,27 +42,9 @@ with tab1:
     )
     col1, col2, col3 = st.columns(3)
     with col1:
-        # Carga y muestra una imagen con ancho y alto específicos
-        #image = "https://raw.githubusercontent.com/SantiagoArceoDiaz/AMDatabase/547b9d1f27ac2e5c5396f35cc85507e74b92404f/pages/Dina.png"
-        #width = 600  # Ancho deseado en píxeles
-        # Mostrar la imagen centrada
-        #caption=st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-        #st.image(image) #caption=':blue [Medición de la fuerza usando un dinamómetro digital]', width=width)
-        #st.caption(' :blue[Medición de la fuerza de agarre usando un dinamómetro digital]')
-        #st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
         st.write(" ")
     with col2:
-        # Carga y muestra una imagen con ancho y alto específicos
-        # image = "https://raw.githubusercontent.com/SantiagoArceoDiaz/AMDatabase/547b9d1f27ac2e5c5396f35cc85507e74b92404f/pages/Dina.png"
-        image = 'Calf.jpeg'
-        width = 600  # Ancho deseado en píxeles
-        # Mostrar la imagen centrada
-        #caption=st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-        st.image(image) #caption=':blue [Medición de la fuerza usando un dinamómetro digital]', width=width)
-        st.caption(' :blue[Medición de la fuerza de agarre usando un dinamómetro digital]')
-        #st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-
-    
+        st.write(" ")
     with col3:
         st.write(' ')
 
@@ -182,26 +164,9 @@ with tab7:
     st.markdown("oihfdiouhgodfhiosfhsiodfhsiofhiosf")
     col1, col2, col3 = st.columns(3)
     with col1:
-        # Carga y muestra una imagen con ancho y alto específicos
-        image = "https://raw.githubusercontent.com/SantiagoArceoDiaz/AMDatabase/547b9d1f27ac2e5c5396f35cc85507e74b92404f/pages/Dina.png"
-        width = 600  # Ancho deseado en píxeles
-        # Mostrar la imagen centrada
-        caption=st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-        st.image(image) #caption=':blue [Medición de la fuerza usando un dinamómetro digital]', width=width)
-        st.caption(' :blue[Medición de la fuerza de agarre usando un dinamómetro digital]')
-        st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-        st.write(" ")
+        st.write(' ')
     with col2:
-        # Carga y muestra una imagen con ancho y alto específicos
-        # image = "https://raw.githubusercontent.com/SantiagoArceoDiaz/AMDatabase/547b9d1f27ac2e5c5396f35cc85507e74b92404f/pages/Dina.png"
-        image = 'Calf.jpeg'
-        width = 600  # Ancho deseado en píxeles
-        # Mostrar la imagen centrada
-        #caption=st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-        st.image(image) #caption=':blue [Medición de la fuerza usando un dinamómetro digital]', width=width)
-        st.caption(' :blue[Medición de la fuerza de agarre usando un dinamómetro digital]')
-        #st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
-    
+        st.write(' ')
     with col3:
         st.write(' ')
 
