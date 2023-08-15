@@ -39,7 +39,7 @@ with tab1:
     st.header("Fuerza de brazo")
     st.markdown(
         """
-        Se mide la fuerza de presion del paciente utilizando un :blue[dinamómetro]. La prueba se realiza 
+        Se mide la fuerza de presion del paciente utilizando un dinamómetro. La prueba se realiza 
         en el brazo dominante, flexionado a 90 grados, con el paciente sentado en una silla. La unidad de medida son los kilogramos. 
         Esta prueba permite establecer puntos de corte para fragilidad, dependiendo del indice de masa corporal del paciente. 
         En Hombres estos son menos de 29 kg (IMC<24), 30 kg (IMC[24,28]) y 32 kg (IMC > 28). En la mujeres los puntos de corte son: 
