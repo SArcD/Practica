@@ -17,7 +17,10 @@ if selected_tab == "Inicio":
 st.write("# Sobre envejecimiento y la sarcopenia :older_adult: :older_woman:")
 
 
-"""La sarcopenia es un término médico utilizado para describir la pérdida gradual y progresiva de masa muscular y fuerza que ocurre con el envejecimiento. Es un fenómeno común en las personas mayores, y puede tener efectos significativos en la salud y la calidad de vida. La sarcopenia puede afectar la capacidad funcional, la independencia y la movilidad de las personas mayores, aumentando el riesgo de caídas, fracturas y otras complicaciones.
+"""
+Un cambio grave asociado al envejecimiento humano consiste en la reducción progresiva de la masa muscular esquelética, una espiral descendente que puede provocar una disminución de la fuerza y la funcionalidad. En 1989, Irwin Rosenberg propuso el término ‘sarcopenia’ (del griego ‘sarx’ o carne +‘penia’ o pérdida) para describir este descenso de la masa muscular relacionado con la edad. Desde entonces, la sarcopenia se ha definido como la disminución de la masamuscular esquelética y la fuerza que se produce con el envejecimiento.
+
+La sarcopenia es un término médico utilizado para describir la pérdida gradual y progresiva de masa muscular y fuerza que ocurre con el envejecimiento. Es un fenómeno común en las personas mayores, y puede tener efectos significativos en la salud y la calidad de vida. La sarcopenia puede afectar la capacidad funcional, la independencia y la movilidad de las personas mayores, aumentando el riesgo de caídas, fracturas y otras complicaciones.
 
 La pérdida de masa muscular asociada con la sarcopenia se debe a una combinación de factores, incluyendo cambios hormonales, disminución de la actividad física, disminución de la ingesta de proteínas y otros factores metabólicos. La sarcopenia no solo afecta a los músculos esqueléticos, sino también a otros tejidos musculares, como el corazón.
 
@@ -25,7 +28,7 @@ Es importante destacar que la sarcopenia no es simplemente una parte inevitable 
 
 La evaluación y el diagnóstico de la sarcopenia pueden involucrar medidas como la medición de la masa muscular, la fuerza muscular y la función física. Los profesionales de la salud pueden utilizar diferentes criterios y pruebas para determinar si una persona tiene sarcopenia y si es necesario intervenir con cambios en el estilo de vida o tratamientos específicos."""
 
-
+st.write("# Diagnostico de sarcopenia:")
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
 
