@@ -230,7 +230,9 @@ with tab7:
     with col3:
         st.write(' ')
 
-
+if selected_tab == "Configuración":
+    st.title("Bienvenido a la Pestaña de Configuración")
+    st.write("Este es el contenido de la pestaña de Configuración.")
 
 
 
