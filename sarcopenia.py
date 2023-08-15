@@ -28,7 +28,10 @@ Es importante destacar que la sarcopenia no es simplemente una parte inevitable 
 
 La evaluación y el diagnóstico de la sarcopenia pueden involucrar medidas como la medición de la masa muscular, la fuerza muscular y la función física. Los profesionales de la salud pueden utilizar diferentes criterios y pruebas para determinar si una persona tiene sarcopenia y si es necesario intervenir con cambios en el estilo de vida o tratamientos específicos."""
 
-st.write("# Diagnostico de sarcopenia:")
+st.header("Categorías de sarcopenia según la causa")
+st.markdown(
+        """
+        Sarcopenia primaria Sarcopenia relacionada con la edad: Ninguna otra causa evidente salvo el envejecimiento
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
 
