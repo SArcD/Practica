@@ -1,7 +1,32 @@
+# Commented out IPython magic to ensure Python compatibility.
+# %pprint
 import streamlit as st
-import pandas as pd
-import io
-import base64
+from PIL import Image
+import pandas as pd #importa la paquetería PAnel DAta (llamada pandas)
+#pip install matplotlib_venn
+from matplotlib_venn import venn2, venn2_circles, venn2_unweighted # importa paqueteria para graficar diagramas de venn
+from matplotlib_venn import venn3, venn3_circles
+from matplotlib import pyplot as plt #importa pyplot para hacer gáficas
+from matplotlib import numpy as np #importar numpy
+import seaborn as sn
+import altair as alt
+#pip install altair_catplot
+import altair_catplot as altcat
+#pip install xlsxwriter
+import xlsxwriter
+import os
+import matplotlib.pyplot as plt
+import seaborn as sns
+import sklearn as sk
+#from sklearn.tree import export_graphviz
+
+
+st.set_page_config(
+    page_title="Introducción",
+    page_icon="	:open_book:",
+    layout="wide"
+
+)
 
 st.write("Sobre envejecimiento y la sarcopenia")
 
