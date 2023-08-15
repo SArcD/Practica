@@ -273,7 +273,6 @@ with tab7:
     with col3:
         st.write(' ')
 
-##################################
 
 elif selected_tab == "Ayuda":
     st.title("Ayuda y Soporte")
