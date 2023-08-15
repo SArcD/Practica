@@ -4,8 +4,6 @@ import io
 import base64
 
 
-import streamlit as st
-
 # Opciones de pestañas en el panel lateral
 tabs = ["Inicio", "Configuración", "Ayuda"]
 selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
