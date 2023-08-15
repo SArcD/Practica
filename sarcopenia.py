@@ -3,6 +3,31 @@ import pandas as pd
 import io
 import base64
 
+import streamlit as st
+
+# Crear las pestañas
+tabs = st.tabs(["Pestaña 1", "Pestaña 2", "Pestaña 3"])
+
+# Contenido de la pestaña 1
+with tabs[0]:
+    st.title("Contenido de la Pestaña 1")
+    st.write("¡Bienvenido a la Pestaña 1!")
+
+# Contenido de la pestaña 2
+with tabs[1]:
+    st.title("Contenido de la Pestaña 2")
+    st.write("¡Estás en la Pestaña 2 ahora!")
+
+# Contenido de la pestaña 3
+with tabs[2]:
+    st.title("Contenido de la Pestaña 3")
+    st.write("Explora la Pestaña 3 aquí.")
+# En este ejemplo, estamos utilizando la función st.tabs() para crear las pestañas y luego estamos utilizando bloques with para definir el contenido de cada pestaña. Cada bloque with tabs[i]: contiene el contenido específico que deseas mostrar en esa pestaña. Puedes personalizar el contenido de cada pestaña con texto, gráficos, widgets interactivos y más.
+
+# Recuerda que necesitarás tener Streamlit instalado en tu entorno para poder ejecutar este código. Puedes instalarlo utilizando el siguiente comando:
+
+
+
 # Crear un DataFrame vacío para almacenar los datos de los pacientes
 if 'data' not in st.session_state:
     st.session_state.data = pd.DataFrame(columns=["Nombre","Edad","Peso","Altura","Grasa","CMB","CMP",'FA',"Marcha"])
@@ -159,34 +184,6 @@ for i in range(num_rows):
 
 
 #######################
-
-import streamlit as st
-
-# Crear las pestañas
-tabs = st.tabs(["Pestaña 1", "Pestaña 2", "Pestaña 3"])
-
-# Contenido de la pestaña 1
-with tabs[0]:
-    st.title("Contenido de la Pestaña 1")
-    st.write("¡Bienvenido a la Pestaña 1!")
-
-# Contenido de la pestaña 2
-with tabs[1]:
-    st.title("Contenido de la Pestaña 2")
-    st.write("¡Estás en la Pestaña 2 ahora!")
-
-# Contenido de la pestaña 3
-with tabs[2]:
-    st.title("Contenido de la Pestaña 3")
-    st.write("Explora la Pestaña 3 aquí.")
-# En este ejemplo, estamos utilizando la función st.tabs() para crear las pestañas y luego estamos utilizando bloques with para definir el contenido de cada pestaña. Cada bloque with tabs[i]: contiene el contenido específico que deseas mostrar en esa pestaña. Puedes personalizar el contenido de cada pestaña con texto, gráficos, widgets interactivos y más.
-
-# Recuerda que necesitarás tener Streamlit instalado en tu entorno para poder ejecutar este código. Puedes instalarlo utilizando el siguiente comando:
-
-
-
-
-
 
 
 
