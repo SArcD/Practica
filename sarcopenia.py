@@ -13,15 +13,6 @@ if selected_tab == "Inicio":
     st.title("Bienvenido a la Pestaña de Inicio")
     st.write("Este es el contenido de la pestaña de inicio.")
 
-elif selected_tab == "Configuración":
-    st.title("Configuración")
-    st.write("Ajusta la configuración aquí.")
-
-elif selected_tab == "Ayuda":
-    st.title("Ayuda y Soporte")
-    st.write("Obtén ayuda aquí.")
-
-
 
 # Commented out IPython magic to ensure Python compatibility.
 # %pprint
