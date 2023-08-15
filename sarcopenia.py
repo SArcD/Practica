@@ -12,8 +12,9 @@ selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
 
 # Mostrar contenido basado en la pestaña seleccionada
 if selected_tab == "Inicio":
-    st.title("Bienvenido a la Pestaña de Inicio")
-    st.write("Este es el contenido de la pestaña de inicio.")
+    st.title("Base de datos de acusmulos")
+    st.write("¿Cómo usarlo?
+    Se introducen los tatos en la table y al final se despliegan diagramas de caja analizando los resultados de toda la base de datos.")
 
 elif selected_tab == "Configuración":
     st.title("Configuración")
