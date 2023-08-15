@@ -3,17 +3,6 @@ import pandas as pd
 import io
 import base64
 
-
-# Opciones de pestañas en el panel lateral
-tabs = ["Inicio", "Configuración", "Ayuda"]
-selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
-
-# Mostrar contenido basado en la pestaña seleccionada
-if selected_tab == "Inicio":
-    st.title("Bienvenido a la Pestaña de Inicio")
-    st.write("Este es el contenido de la pestaña de inicio.")
-
-
 st.write("Sobre envejecimiento y la sarcopenia")
 
 
