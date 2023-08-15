@@ -7,7 +7,7 @@ import base64
 import streamlit as st
 
 # Opciones de pestañas en el panel lateral
-tabs = ["Inicio", "Configuración", "Ayuda"]
+tabs = ["Inicio", "todo de sorcopenia", "Ayuda"]
 selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
 
 # Mostrar contenido basado en la pestaña seleccionada
@@ -15,9 +15,12 @@ if selected_tab == "Inicio":
     st.title("Base de datos de acusmulos")
     st.write("¿Cómo usarlo? Se introducen los tatos en la table y al final se despliegan diagramas de caja analizando los resultados de toda la base de datos.")
 
-elif selected_tab == "Configuración":
-    st.title("Configuración")
+elif selected_tab == "todo de sorcopenia":
+    st.title("todo de sorcopenia")
     st.write("Ajusta la configuración aquí.")
+
+
+##################################
 
 elif selected_tab == "Ayuda":
     st.title("Ayuda y Soporte")
