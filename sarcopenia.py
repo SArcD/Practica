@@ -36,8 +36,8 @@ st.markdown(
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
 
 with tab1:
-    st.header("Fuerza de brazo")
-    st.markdown(
+st.header("Fuerza de brazo")
+st.markdown(
         """
         Se mide la fuerza de presion del paciente utilizando un dinamómetro. La prueba se realiza 
         en el brazo dominante, flexionado a 90 grados, con el paciente sentado en una silla. La unidad de medida son los kilogramos. 
