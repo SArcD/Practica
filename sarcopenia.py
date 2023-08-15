@@ -14,7 +14,7 @@ if selected_tab == "Inicio":
     st.write("Este es el contenido de la pestaña de inicio.")
 
 
-st.write("# Sobre envejecimiento y la sarcopenia :older_adult: :older_woman:")
+st.write("# Sobre envejecimiento y la sarcopenia")
 
 
 """
