@@ -229,3 +229,16 @@ with tab7:
     
     with col3:
         st.write(' ')
+
+elif selected_tab == "Configuración":
+    st.title("Configuración")
+    st.write("Ajusta la configuración aquí.")
+
+elif selected_tab == "Ayuda":
+    st.title("Ayuda y Soporte")
+    st.write("Obtén ayuda aquí.")
+
+
+
+
+
