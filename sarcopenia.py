@@ -28,6 +28,33 @@ with tabs[2]:
 
 
 
+
+
+
+import streamlit as st
+
+# Opciones de pestañas en el panel lateral
+tabs = ["Inicio", "Configuración", "Ayuda"]
+selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
+
+# Mostrar contenido basado en la pestaña seleccionada
+if selected_tab == "Inicio":
+    st.title("Bienvenido a la Pestaña de Inicio")
+    st.write("Este es el contenido de la pestaña de inicio.")
+
+elif selected_tab == "Configuración":
+    st.title("Configuración")
+    st.write("Ajusta la configuración aquí.")
+
+elif selected_tab == "Ayuda":
+    st.title("Ayuda y Soporte")
+    st.write("Obtén ayuda aquí.")
+
+
+
+
+
+
 # Crear un DataFrame vacío para almacenar los datos de los pacientes
 if 'data' not in st.session_state:
     st.session_state.data = pd.DataFrame(columns=["Nombre","Edad","Peso","Altura","Grasa","CMB","CMP",'FA',"Marcha"])
