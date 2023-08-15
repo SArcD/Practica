@@ -3,6 +3,28 @@ import pandas as pd
 import io
 import base64
 
+
+import streamlit as st
+
+# Opciones de pestañas en el panel lateral
+tabs = ["Inicio", "Configuración", "Ayuda"]
+selected_tab = st.sidebar.radio("Selecciona una pestaña", tabs)
+
+# Mostrar contenido basado en la pestaña seleccionada
+if selected_tab == "Inicio":
+    st.title("Bienvenido a la Pestaña de Inicio")
+    st.write("Este es el contenido de la pestaña de inicio.")
+
+elif selected_tab == "Configuración":
+    st.title("Configuración")
+    st.write("Ajusta la configuración aquí.")
+
+elif selected_tab == "Ayuda":
+    st.title("Ayuda y Soporte")
+    st.write("Obtén ayuda aquí.")
+
+
+
 # Commented out IPython magic to ensure Python compatibility.
 # %pprint
 import streamlit as st
