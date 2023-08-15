@@ -37,7 +37,7 @@ st.set_page_config(
 
 )
 
-st.write("# Sobre envejecimiento y la sarcopenia :older_adult: :older_woman:")
+st.write("# Sobre envejecimiento y la sarcopenia")
 
 
 """La sarcopenia es un término médico utilizado para describir la pérdida gradual y progresiva de masa muscular y fuerza que ocurre con el envejecimiento. Es un fenómeno común en las personas mayores, y puede tener efectos significativos en la salud y la calidad de vida. La sarcopenia puede afectar la capacidad funcional, la independencia y la movilidad de las personas mayores, aumentando el riesgo de caídas, fracturas y otras complicaciones.
