@@ -179,13 +179,9 @@ with tabs[1]:
 with tabs[2]:
     st.title("Contenido de la Pestaña 3")
     st.write("Explora la Pestaña 3 aquí.")
-En este ejemplo, estamos utilizando la función st.tabs() para crear las pestañas y luego estamos utilizando bloques with para definir el contenido de cada pestaña. Cada bloque with tabs[i]: contiene el contenido específico que deseas mostrar en esa pestaña. Puedes personalizar el contenido de cada pestaña con texto, gráficos, widgets interactivos y más.
+# En este ejemplo, estamos utilizando la función st.tabs() para crear las pestañas y luego estamos utilizando bloques with para definir el contenido de cada pestaña. Cada bloque with tabs[i]: contiene el contenido específico que deseas mostrar en esa pestaña. Puedes personalizar el contenido de cada pestaña con texto, gráficos, widgets interactivos y más.
 
-Recuerda que necesitarás tener Streamlit instalado en tu entorno para poder ejecutar este código. Puedes instalarlo utilizando el siguiente comando:
-
-Copy code
-pip install streamlit
-Una vez que tengas Streamlit instalado, puedes ejecutar el script y abrirá automáticamente una página web con las pestañas que has creado.
+# Recuerda que necesitarás tener Streamlit instalado en tu entorno para poder ejecutar este código. Puedes instalarlo utilizando el siguiente comando:
 
 
 
