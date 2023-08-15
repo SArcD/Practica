@@ -46,6 +46,8 @@ st.header("Categorías de sarcopenia según la causa")
 st.markdown(
         """
         Sarcopenia primaria Sarcopenia relacionada con la edad: Ninguna otra causa evidente salvo el envejecimiento
+        """
+)
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
 
