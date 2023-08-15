@@ -13,7 +13,7 @@ st.title('Ingreso de Datos de Pacientes')
 # Crear un formulario para agregar datos de un paciente
 with st.form('Agregar Paciente'):
     Nombre = st.text_input('Nombre del Paciente')
-    Edad = st.number_input('Edad', min_value=0, max_value=150)
+    Edad = st.number_input('Edad', min_value=0, max_value=120)
     Peso = st.number_input('Peso (kg)', min_value=0.0)
     Altura = st.number_input('Altura (m)', min_value=0.0)
     Grasa = st.number_input('Grasa (%)', min_value=0.0)
